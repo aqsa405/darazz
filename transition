@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    border:0px;
+    box-sizing:border-box;
+
+}
+ .left_side_nav, .right_side_nav{
+display: inline;
+float: left;
+width: 45%;
+}
+.right_side_nav{
+text-align: end
+}
+.logo{
+display: inline;
+float: left;
+width: 10%;
+}
+
+ .left_side_nav ul li, .right_side_nav ul li{
+    display: inline;
+}
+
+header{
+    background-color: rgb(214, 172, 172)
+}
+section{
+    overflow: auto;
+}
+.left_menu{
+    background-color: brown;
+}
+.main_content{
+    background-color: blueviolet;
+}
+.site_ads{
+    background-color: rgb(143, 179, 120);
+}
+.left_menu, .main_content, .site_ads {
+    float: left;
+    width: 33.33%;
+    height: 80vh;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.left_side_nav ul li ,.right_side_nav ul li{
+    transition: all 2s ease 2s;
+}
+.left_side_nav ul li:hover, .right_side_nav ul li:hover{
+    color:rgb(25, 143, 179);
+background-color: rgb(177, 167, 185);
+border: 3px solid rgb(184, 11, 155);
+text-decoration: underline;
+}
+
+
